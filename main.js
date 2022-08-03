@@ -30,7 +30,7 @@ function validar(elEvento) {
     var email = document.getElementById('email').value;
     var contra = document.getElementById('password').value;
     var contra1 = document.getElementById('password1').value;
-    //exprecion regular para el correo
+    //expresion regular para el correo
     let expr = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)(\.zw{2,3,4})+$/;
 
     //validando que los campos no esten vacios
